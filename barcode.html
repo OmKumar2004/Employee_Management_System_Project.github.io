@@ -11,12 +11,12 @@
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4;'>
 
-        <a-marker type='barcode' value='99'>
-            <a-box position='0 1 0' color="yellow"></a-box>
+        <a-marker type='barcode' value='29'>
+            <a-cone position='0 1 0' color="blue"></a-cone>
         </a-marker>
 
-<a-marker type='barcode' value=’22’>
-            <a-box position='0 1 0' color="yellow"></a-box>
+<a-marker type='barcode' value=’29’>
+            <a-cone position='0 1 0' color="blue"></a-cone>
         </a-marker>
     
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
